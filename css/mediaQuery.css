@@ -1,0 +1,64 @@
+@media screen and (max-width: 1750px) {
+  .Flex1 {
+    flex: 1 20%;
+  }
+}
+@media screen and (max-width: 1452px) {
+  .Flex1 {
+    flex: 1 25%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .Flex1 {
+    flex: 1 40%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Flex1 {
+    flex: 1 100%;
+  }
+  .youtubeIcon {
+    margin-left: 1rem;
+  }
+  
+  .hamburgerMenu,
+  .fa-bell,
+  .fa-th {
+    display: none;
+  }
+  #contant {
+    margin-left: 0px !important;
+  }
+.closesidenav {
+  z-index: 2;
+  display: flex;
+  margin: 0px 0px;
+  padding: 0,5rem 2rem;
+  padding-bottom: 3rem;
+  position: fixed;
+  width: auto;
+  justify-content: center;
+  flex-direction:row;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  border-top: 1px solid hsla(0, 0%, 53.3%, 0.4);
+  background: #ffffff;
+  color: hsla(0, 0%, 6.7%, 0.6);
+  font-size: 1.1rem;
+}
+.closesidenav ul {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+.closesidenav ul li {
+  padding: 1rem;
+  margin: 0.5rem 0rem;
+}
+}
+
+

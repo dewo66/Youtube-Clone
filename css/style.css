@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2,
+h3,
+a {
+  color: #34495e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 5rem;
+  position: fixed;
+  z-index: 2;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header div ul li a i {
+  margin-right: 2rem;
+  font-size: 1.3rem;
+}
+.youtubeIcon {
+  justify-content: flex-start;
+  width: 28px;
+  height: 80px;
+  margin: 0rem 0.2rem;
+  margin-top: 0.5rem;
+  padding: 0rem;
+}
+.youtubeLogo {
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin-right: 3rem;
+}
+.fa-microphone {
+  margin: 0rem 1.2rem;
+  margin-top: 0.5rem;
+  padding: 0rem;
+  color: gray;
+}
+.fa-search {
+  color: gray;
+}
+.hamburgerMenu {
+  margin: 1rem 1.6rem;
+  color: rgb(58, 54, 54);
+  font-size: 1.2em;
+}
+.fa-bars {
+  animation: 1s;
+}
+.fa-bars:active {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 -10px;
+}
+
+@media (max-width: 650px) {
+  .searchButton,
+  .micIcon {
+    display: none;
+  }
+}
+@media (min-width: 650px) {
+  .display {
+    display: none;
+  }
+}
